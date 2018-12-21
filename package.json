@@ -1,0 +1,25 @@
+{
+  "name": "VideoPorter",
+  "version": "0.1.0",
+  "main": "index.ts",
+  "repository": "git@github.com:nick3/VideoPorter.git",
+  "author": "Nick Liu <imjustanemail@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "tsc",
+    "start": "ts-node index.ts"
+  },
+  "dependencies": {
+    "@types/figlet": "^1.2.0",
+    "chalk": "^2.4.1",
+    "commander": "^2.19.0",
+    "figlet": "^1.2.1",
+    "inquirer": "^6.2.1",
+    "puppeteer": "^1.11.0"
+  },
+  "devDependencies": {
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
+  }
+}
